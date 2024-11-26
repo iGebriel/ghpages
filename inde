@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<header class="bg-white">
+  <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <div class="flex flex-1">
+      <div class="hidden lg:flex lg:gap-x-12">
+        <a href="#" class="text-sm/6 font-semibold text-gray-900">Product</a>
+        <a href="#" class="text-sm/6 font-semibold text-gray-900">Features</a>
+        <a href="#" class="text-sm/6 font-semibold text-gray-900">Company</a>
+      </div>
+      <div class="flex lg:hidden">
+        <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+          <span class="sr-only">Open main menu</span>
+          <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <a href="#" class="-m-1.5 p-1.5">
+      <span class="sr-only">Your Company</span>
+      <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt="">
+    </a>
+    <div class="flex flex-1 justify-end">
+      <a href="#" class="text-sm/6 font-semibold text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
+    </div>
+  </nav>
+  <!-- Mobile menu, show/hide based on menu open state. -->
+  <div class="lg:hidden" role="dialog" aria-modal="true">
+    <!-- Background backdrop, show/hide based on slide-over state. -->
+    <div class="fixed inset-0 z-10"></div>
+    <div class="fixed inset-y-0 left-0 z-10 w-full overflow-y-auto bg-white px-6 py-6">
+      <div class="flex items-center justify-between">
+        <div class="flex flex-1">
+          <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+            <span class="sr-only">Close menu</span>
+            <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <a href="mailto:igebriel@gmal.com" class="-m-1.5 p-1.5">
+          <span class="sr-only">islam Gebriel(igebriel@gmail.com)</span>
+          <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt="">
+        </a>
+        <div class="flex flex-1 justify-end">
+          <a href="#" class="text-sm/6 font-semibold text-gray-900">+20 1007660560<span aria-hidden="true">&rarr;</span></a>
+        </div>
+      </div>
+      <div class="mt-6 space-y-2">
+        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">About Me</a>
+        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Skills</a>
+        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Projects</a>
+        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Recommendations</a>
+      </div>
+    </div>
+  </div>
+</header>
+  <div class="bg-white">
+
+      <div class="relative">
+    <div class="mx-auto max-w-7xl">
+      <div class="relative z-10 pt-14 lg:w-full lg:max-w-2xl">
+        <svg class="absolute inset-y-0 right-8 hidden h-full w-80 translate-x-1/2 transform fill-white lg:block" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+          <polygon points="0,0 90,0 50,100 0,100" />
+        </svg>
+
+        <div class="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-56 lg:pr-0">
+          <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
+            <div class="hidden sm:mb-10 sm:flex">
+              <div class="relative rounded-full px-3 py-1 text-sm/6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                Anim aute id magna aliqua ad ad non deserunt sunt. <a href="#" class="whitespace-nowrap font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+            <h1 class="text-pretty text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">I’m Islam Gebriel. I live in Cairo, Egypt.</h1>
+            
+<p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">Hello, and welcome to my corner of the internet! I’m Islam Gebriel, a passionate developer with a background in electronics and communication engineering. Over the years, I’ve honed my skills in full-stack development, mastering technologies like Ruby on Rails, Node.js, React, and React Native.</p>
+
+<p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">Beyond programming, I’m an avid learner with a deep interest in embedded systems, electronic design, and AI. My journey has been a blend of curiosity, perseverance, and a commitment to building meaningful projects.</p>
+
+<p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">When I’m not coding, I enjoy exploring new tech trends, reading, or solving puzzles. This blog is my space to share insights from my work, document my learning experiences, and connect with like-minded individuals. Whether you’re here to learn, share ideas, or just explore, I hope you find something that resonates with you.</p>
+
+
+  
+            <div class="mt-10 flex items-center gap-x-6">
+              <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+              <a href="#" class="text-sm/6 font-semibold text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+      <img class="aspect-[3/2] object-cover lg:aspect-auto lg:size-full" src="https://images.unsplash.com/photo-1483389127117-b6a2102724ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80" alt="">
+    </div>
+  </div>
+</div>
+<div>
+  <h3 class="text-base font-semibold text-gray-900">Skills</h3>
+  <dl class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3">
+    <div class="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
+      <dt class="truncate text-sm font-medium text-gray-500">HTML</dt>
+      <dd class="mt-1 text-3xl font-semibold tracking-tight text-gray-900">90%</dd>
+    </div>
+    <div class="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
+      <dt class="truncate text-sm font-medium text-gray-500">CSS</dt>
+      <dd class="mt-1 text-3xl font-semibold tracking-tight text-gray-900">90%</dd>
+    </div>
+    <div class="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
+      <dt class="truncate text-sm font-medium text-gray-500">Javascript</dt>
+      <dd class="mt-1 text-3xl font-semibold tracking-tight text-gray-900">85%</dd>
+    </div>
+  </dl>
+    <dl class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3">
+    <div class="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
+      <dt class="truncate text-sm font-medium text-gray-500">Node.JS</dt>
+      <dd class="mt-1 text-3xl font-semibold tracking-tight text-gray-900">80%</dd>
+    </div>
+    <div class="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
+      <dt class="truncate text-sm font-medium text-gray-500">RubyOnRails</dt>
+      <dd class="mt-1 text-3xl font-semibold tracking-tight text-gray-900">58.16%</dd>
+    </div>
+    <div class="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
+      <dt class="truncate text-sm font-medium text-gray-500">React</dt>
+      <dd class="mt-1 text-3xl font-semibold tracking-tight text-gray-900">74.57%</dd>
+    </div>
+  </dl>
+</div>
+</body>
+</html>
